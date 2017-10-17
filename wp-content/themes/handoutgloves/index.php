@@ -1,15 +1,17 @@
-<?php get_header(); ?>
+<?php get_template_part('mainnav') ?>
 
-  <div class="row">
+  <?php get_header(); ?>
 
-    <div class="col-sm-8 blog-main">
+      <div class="row">
 
-      <?php get_template_part( 'content', get_post_format() ); ?>
+        <div class="col-sm-8 blog-main">
 
-    </div> <!-- /.blog-main -->
+          <?php get_template_part( 'content', get_post_format() ); ?>
 
-    <?php get_sidebar(); ?>
+        </div> <!-- /.blog-main -->
 
-  </div> <!-- /.row -->
+        <?php get_sidebar(); ?>
+
+      </div> <!-- /.row -->
 
 <?php get_footer(); ?>

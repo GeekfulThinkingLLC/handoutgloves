@@ -19,8 +19,23 @@ h6, .h6 {
   color: #333;
 }
 
-h2 {
+h1 {
   color: green;
+}
+
+.blog-nav li {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  font-weight: 500;	
+}
+
+.blog-nav li a:hover {
+  text-decoration: none;
+  color: #333
+}
+.blog-nav li a {
+  color: #fff;
 }
 
 
