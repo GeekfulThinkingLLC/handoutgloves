@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html, body {
   height: 100%;
 }
@@ -50,3 +51,29 @@ i {
 hr {
   border-color: white;
 }
+=======
+
+
+.main-content-style {
+	text-align: center;
+}
+
+.upper-case-top-home-screen {
+	text-transform: uppercase;
+}
+
+.home-page-img-style {
+	text-align: center;
+}
+
+.home-page-buynow-btn {
+	text-align: center;
+}
+
+.btn-styles {
+	background-color: black;
+	border: none;
+	color: white;
+	width: 25%;
+}
+>>>>>>> fb64e6415894f1636967d393e1a38b076326fbd7

@@ -6,10 +6,14 @@
 
         <div class="col-12">
 
-          <?php get_template_part( 'content', get_post_format() ); ?>
+          <?php get_template_part( 'page-home', get_post_format() ); ?>
 
-        </div> <!-- /.blog-main -->
+        </div> 
 
+<<<<<<< HEAD
       </div> <!-- /.row -->
+=======
+      </div> 
+>>>>>>> fb64e6415894f1636967d393e1a38b076326fbd7
 
 <?php get_footer(); ?>
