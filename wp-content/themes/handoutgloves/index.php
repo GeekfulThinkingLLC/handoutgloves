@@ -1,6 +1,6 @@
 <?php get_template_part('mainnav') ?>
+<?php get_header(); ?>
 
-  <?php get_header(); ?>
 
       <div class="row">
 

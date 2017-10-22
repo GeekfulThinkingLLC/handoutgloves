@@ -3,17 +3,26 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse div-class" id="navbarSupportedContent">
-    <ul class="navbar-nav custom-class">
-      <li class="nav-item">
-        <button class="nav-link btn btn-md btn-primary" href="#">Login <span class="sr-only">(current)</span></button>
-      </li>
-      <li class="nav-item">
-        <button class="nav-link btn btn-md btn-primary" href="#">Cart</button>
-      </li>
+    <div>
+      <img src="<?php echo theme_image('HO Full2 (White).png') ?>" style="width:100px">
+    </div>
+    <ul class="navbar-nav ml-auto d-flex align-items-center">
       <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="text" placeholder="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        <!-- <input class="form-control mr-sm-2" type="text" placeholder="Search"> 
+        <button class="nav-item my-2 my-sm-0 btn btn-primary" type="submit">Search</button> -->
       </form>
+      <li class="nav-item">
+      Search
+      </li>
+      <li class="nav-item">
+        Login
+      </li>
+      <li class="nav-item">
+        Cart
+      </li>
+      <li class="nav-item">
+      <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+      </li>
     </ul>
   </div>
 </nav>

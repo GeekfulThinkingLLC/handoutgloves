@@ -17,4 +17,6 @@ function theme_js() {
     return get_template_directory_uri() . '/assets/images/' . $image;
   }
 
+  add_filter('show_admin_bar', '__return_false');
+
 ?>

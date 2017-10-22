@@ -74,7 +74,29 @@ hr {
 	color: white;
 	width: 25%;
 }
+
 .home {
   min-height: 100%;
-  margin: 80px;
+  margin: 110px;
+}
+
+.nav-item {
+  margin: 0px 10px 0px 10px;
+}
+
+.navbar {
+  background-color: #231f20;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.nav-item {
+  color: white;
+  vertical-align: middle;
+  display: inline-block;
+  height: 100%;
+}
+
+.navbar-toggler-icon {
+  color: black;
 }
