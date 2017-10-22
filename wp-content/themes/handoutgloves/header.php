@@ -4,24 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
 
     <title>Hand out Blogs</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="<?php echo get_bloginfo('template_directory'); ?>/css/all.css" rel="stylesheet">
-
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
     <?php wp_head(); ?>
   </head>
 
@@ -33,3 +20,23 @@
         <h1 class="blog-title">Hand out Gloves</h1>
         <p class="lead blog-description">The official example template of creating a blog with Bootstrap.</p>
       </div>
+
+      <nav class="navbar navbar-toggleable-md">
+        <!-- <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> -->
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse div-class" id="navbarSupportedContent">
+          <ul class="navbar-nav custom-class">
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="text" placeholder="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <li class="nav-item">
+              <button class="nav-link btn btn-md btn-primary" href="#">Login <span class="sr-only">(current)</span></button>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link btn btn-md btn-primary" href="#">Cart</button>
+            </li>
+          </ul>
+        </div>
+      </nav>
