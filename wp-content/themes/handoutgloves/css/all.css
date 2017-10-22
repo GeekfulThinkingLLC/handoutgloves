@@ -1,17 +1,43 @@
-h1 {
-  color: red;
+.sticky-nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 30px;
 }
 
-.custom-class li {
-  list-style: none;
+.navbar {
+  margin-right: 0;
 }
 
-.blog-nav li {
-  position: relative;
-  display: inline-block;
-  padding: 10px;
-  font-weight: 500;	
+footer {
+  background-color: #231f20;
+  height: 400px;
 }
-.blog-nav li a {
-  color: black;
+
+.home-footer {
+  padding: 50px 0px 50px 0px;
+  color: white;
+}
+
+.footer-text-styles {
+  text-transform: uppercase;
+}
+
+.underline {
+  border-bottom: 1px solid white;
+}
+
+.social-border {
+  border: 2px solid white;
+  width: 100%;
+  vertical-align: text-top;
+  padding: 10px 0px 10px 0px;
+  margin: 30px 0px 30px 0px;
+}
+
+i {
+  text-align: center;
+}
+
+hr {
+  border-color: white;
 }
