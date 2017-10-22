@@ -1,7 +1,16 @@
-.sticky-nav {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 30px;
+html, body {
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 5em;
+  box-sizing: border-box;
+}
+
+.fixed-top {
+  padding-top: 40px;
 }
 
 .navbar {
@@ -9,11 +18,11 @@
 }
 
 footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   background-color: #231f20;
   height: 400px;
-}
-
-.home-footer {
   padding: 50px 0px 50px 0px;
   color: white;
 }
@@ -31,7 +40,7 @@ footer {
   width: 100%;
   vertical-align: text-top;
   padding: 10px 0px 10px 0px;
-  margin: 30px 0px 30px 0px;
+  margin: 20px 0px 20px 0px;
 }
 
 i {
