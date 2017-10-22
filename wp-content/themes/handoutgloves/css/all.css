@@ -1,3 +1,57 @@
+<<<<<<< HEAD
+html, body {
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 5em;
+  box-sizing: border-box;
+}
+
+.fixed-top {
+  padding-top: 40px;
+}
+
+.navbar {
+  margin-right: 0;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #231f20;
+  height: 400px;
+  padding: 50px 0px 50px 0px;
+  color: white;
+}
+
+.footer-text-styles {
+  text-transform: uppercase;
+}
+
+.underline {
+  border-bottom: 1px solid white;
+}
+
+.social-border {
+  border: 2px solid white;
+  width: 100%;
+  vertical-align: text-top;
+  padding: 10px 0px 10px 0px;
+  margin: 20px 0px 20px 0px;
+}
+
+i {
+  text-align: center;
+}
+
+hr {
+  border-color: white;
+}
+=======
 
 
 .main-content-style {
@@ -22,3 +76,4 @@
 	color: white;
 	width: 25%;
 }
+>>>>>>> fb64e6415894f1636967d393e1a38b076326fbd7
