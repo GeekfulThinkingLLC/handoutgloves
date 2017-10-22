@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <nav class="navbar navbar-toggleable-md fixed-top">
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -18,5 +17,3 @@
     </ul>
   </div>
 </nav>
-=======
->>>>>>> fb64e6415894f1636967d393e1a38b076326fbd7
