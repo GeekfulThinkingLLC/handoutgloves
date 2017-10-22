@@ -64,19 +64,15 @@ hr {
 	text-align: center;
 }
 
-.home-page-buynow-btn {
-	text-align: center;
-}
-
 .btn-styles {
 	background-color: black;
 	border: none;
 	color: white;
-	width: 25%;
 }
 
 .home {
   min-height: 100%;
+<<<<<<< HEAD
   margin: 110px;
 }
 
@@ -100,3 +96,22 @@ hr {
 .navbar-toggler-icon {
   color: black;
 }
+=======
+  margin: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 1e2650f43db08566a0a04e2eb55756eaf3eacb38
