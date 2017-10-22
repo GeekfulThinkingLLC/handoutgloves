@@ -1,17 +1,24 @@
-h1 {
-  color: red;
+
+
+.main-content-style {
+	text-align: center;
 }
 
-.custom-class li {
-  list-style: none;
+.upper-case-top-home-screen {
+	text-transform: uppercase;
 }
 
-.blog-nav li {
-  position: relative;
-  display: inline-block;
-  padding: 10px;
-  font-weight: 500;	
+.home-page-img-style {
+	text-align: center;
 }
-.blog-nav li a {
-  color: black;
+
+.home-page-buynow-btn {
+	text-align: center;
+}
+
+.btn-styles {
+	background-color: black;
+	border: none;
+	color: white;
+	width: 25%;
 }
