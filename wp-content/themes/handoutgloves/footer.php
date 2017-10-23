@@ -6,16 +6,16 @@
               <div class="container">
                 <div class="row">
                   <div class="col-3">
-                    <i class="fa fa-instagram fa-2x social-border" aria-hidden="true"></i>
+                    <a href="#"><i class="fa fa-instagram fa-2x social-border"></i></a>
                   </div>
                   <div class="col-3">
-                    <i class="fa fa-facebook fa-2x social-border" aria-hidden="true"></i>
+                    <a href="#"><i class="fa fa-facebook fa-2x social-border"></i></a>
                   </div>
                   <div class="col-3">
-                    <i class="fa fa-twitter fa-2x social-border" aria-hidden="true"></i>
+                    <a href="#"><i class="fa fa-twitter fa-2x social-border"></i></a>
                   </div>
                   <div class="col-3">
-                    <i class="fa fa-vimeo fa-2x social-border" aria-hidden="true"></i>
+                    <a href="#"><i class="fa fa-vimeo fa-2x social-border"></i></a>
                   </div>
                 </div>
               </div>
@@ -24,18 +24,19 @@
             </div>
             <div class="col-4">
               <p class="underline">products</p>
-              <p>snow</p>
-              <p>hunt</p>
-              <p>fish</p>
-              <p>work</p>
-              <p>clothing</p>
+              <p><a href="#">snow</a></p>
+              <p><a href="#">hunt</a></p>
+              <p><a href="#">fish</a></p>
+              <p><a href="#">work</a></p>
+              <p><a href="#">clothing</a></p>
             </div>
             <div class="col-4">
               <p class="underline">resources</p>
-              <p>support</p>
-              <p>about</p>
-              <p>sizing chart</p>
-              <p>washing instructions</p>
+              <p><a href="#">wholesale accounts</a></p>
+              <p><a href="#">support</a></p>
+              <p><a href="#">about</a></p>
+              <p><a href="#">sizing chart</a></p>
+              <p><a href="#">washing instructions</a></p>
             </div>
           </div>
         </div>

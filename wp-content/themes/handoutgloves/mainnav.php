@@ -4,7 +4,7 @@
   </button>
   <div class="collapse navbar-collapse div-class" id="navbarSupportedContent">
     <div>
-      <img src="<?php echo theme_image('HO Full2 (White).png') ?>" style="width:100px">
+      <a href="#"><img src="<?php echo theme_image('HO Full2 (White).png') ?>" style="width:100px"></a>
     </div>
     <ul class="navbar-nav ml-auto d-flex align-items-center">
       <form class="form-inline my-2 my-lg-0">
