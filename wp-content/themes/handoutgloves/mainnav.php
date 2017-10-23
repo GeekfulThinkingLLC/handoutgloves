@@ -1,6 +1,6 @@
 <nav class="navbar navbar-toggleable-md fixed-top">
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    <div class="fa fa-bars fa-2x text-white"></div>
   </button>
   <div class="collapse navbar-collapse div-class" id="navbarSupportedContent">
     <div>
@@ -25,7 +25,7 @@
         <div id="menu" class="panel panel-default panel-collapse collapse">
           <div class="container">
             <div class="row modal-padding">
-              <div class="col-6">
+              <div class="col-md-6 col-xs-12 col-sm-12">
                 <p class="underline">products</p>
                 <p><a href="#">snow</a></p>
                 <p><a href="#">hunt</a></p>
@@ -33,7 +33,7 @@
                 <p><a href="#">work</a></p>
                 <p><a href="#">clothing</a></p>
               </div>
-              <div class="col-6">
+              <div class="col-md-6 col-xs-12 col-sm-12">
                 <p class="underline">resources</p>
                 <p><a href="#">wholesale accounts</a></p>
                 <p><a href="#">support</a></p>

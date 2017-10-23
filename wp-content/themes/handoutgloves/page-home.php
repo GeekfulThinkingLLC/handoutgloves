@@ -40,9 +40,7 @@
       <img src="<?php echo theme_image('HO Work5.png') ?>" style="width:65%">
     </div>
   </div>
-<<<<<<< HEAD
   
-=======
 
   <div class="row justify-content-center main-glove-homepage">
     <img src="http://via.placeholder.com/1000x400">
@@ -80,7 +78,6 @@
 
 
 
->>>>>>> ca3df59143b098079dd39f1b6f547749dd40e2e0
 </div>
 
 

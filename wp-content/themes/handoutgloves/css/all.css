@@ -145,10 +145,6 @@ hr {
   color: white;
 }
 
-.navbar-toggler-icon {
-  color: black;
-}
-
 #menu {
   background: rgba(0,0,0,0.8);
   position: absolute;
@@ -159,10 +155,20 @@ hr {
   margin-top: 98px;
 }
 
-.modal-padding {
+@media only screen and (min-width: 500px) {
+  .modal-padding {
   padding: 100px;
   font-size: 24px;
   text-transform: uppercase;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .modal-padding {
+  padding: 10px 20px 0px 20px;
+  font-size: 12px;
+  text-transform: uppercase;
+  }
 }
 
 .modal-padding a {
@@ -170,6 +176,9 @@ hr {
   color: white;
 }
 
+.text-white {
+  color: white;
+}
 
 
 
