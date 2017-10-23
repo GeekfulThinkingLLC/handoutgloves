@@ -50,6 +50,7 @@
       <img src="http://via.placeholder.com/175x250">
     </div>
   </div>
+  
 </div>
 
 
