@@ -4,11 +4,11 @@
 
       <div class="row">
 
-        <div class="col-12">
 
-          <?php get_template_part( 'page-home', get_post_format() ); ?>
 
-        </div> 
+          <?php get_template_part( 'page-product', get_post_format() ); ?>
+
+
 
       </div> 
 

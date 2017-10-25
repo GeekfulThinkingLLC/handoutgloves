@@ -18,7 +18,7 @@ html, body {
 }
 
 footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
   background-color: #231f20;
@@ -52,10 +52,6 @@ i {
   text-align: center;
 }
 
-hr {
-  border-color: white;
-}
-
 
 .main-content-style {
 	text-align: center;
@@ -69,7 +65,7 @@ hr {
 
 .home-page-img-style {
 	text-align: center;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
 }
 
 .buy-now-btn-style {
@@ -118,9 +114,7 @@ hr {
 }
 
 .home {
-  min-height: 500%;
   margin-top: 110px;
-  margin-bottom: 110px;
 }
 
 .nav-item {
@@ -155,7 +149,7 @@ hr {
   margin-top: 98px;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 500px) { 
   .modal-padding {
   padding: 100px;
   font-size: 24px;
@@ -180,13 +174,109 @@ hr {
   color: white;
 }
 
+.snow-main-styles {
+  height: 30vw;
+  margin-top: 100px;
+}
 
+.snow-right-pic-styles {
+  margin-bottom: 200px%
+}
 
+.text-product-homepage {
+  margin-top: 20%;
+}
 
+.text-product-homepage h1 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
 
+.text-product-homepage p {
+  text-align: center;
+  font-weight: bold;
+  line-height: .7em;
+  font-size: 1.4em;
+}
 
+.btn-styles2 {
+  width: 53%;
+  background-color: black;
+  border: none;
+}
 
+hr {
+  border: none;
+  height: 50px;
+  background-color: black;
+}
 
+.text-product-homepage1 h1 {
+  font-weight: bold;
+}
 
+.text-product-homepage1 p {
+  font-weight: 600;
+  line-height: .7em;
+}
 
+.nick-russel-spacer {
+  margin-bottom: 25px;
+}
 
+.text-product-homepage1 {
+  margin-top: 15%;
+}
+
+.row {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+
+/*/*Side Bar Nav*/
+
+/*.nav-sidebar { 
+    width: 100%;
+    padding: 8px 0; 
+    border-right: 1px solid #ddd;
+}
+.nav-sidebar a {
+    color: #333;
+    -webkit-transition: all 0.08s linear;
+    -moz-transition: all 0.08s linear;
+    -o-transition: all 0.08s linear;
+    transition: all 0.08s linear;
+    -webkit-border-radius: 4px 0 0 4px; 
+    -moz-border-radius: 4px 0 0 4px; 
+    border-radius: 4px 0 0 4px; 
+}
+.nav-sidebar .active a { 
+    cursor: default;
+    background-color: #428bca; 
+    color: #fff; 
+    text-shadow: 1px 1px 1px #666; 
+}
+.nav-sidebar .active a:hover {
+    background-color: #428bca;   
+}
+.nav-sidebar .text-overflow a,
+.nav-sidebar .text-overflow .media-body {
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis; 
+}
+
+/* Right-aligned sidebar */
+/*.nav-sidebar.pull-right { 
+    border-right: 0; 
+    border-left: 1px solid #ddd; 
+}
+.nav-sidebar.pull-right a {
+    -webkit-border-radius: 0 4px 4px 0; 
+    -moz-border-radius: 0 4px 4px 0; 
+    border-radius: 0 4px 4px 0; 
+}*/
+
+/*End of sidenav*/
