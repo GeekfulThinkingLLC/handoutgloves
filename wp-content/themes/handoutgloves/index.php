@@ -2,14 +2,14 @@
   
   <?php get_header(); ?>
 
-      <div class="row">
+     
 
 
 
-          <?php get_template_part( 'page-product', get_post_format() ); ?>
+          <?php get_template_part( 'page-productsnow', get_post_format() ); ?>
 
 
 
-      </div> 
+      
 
 <?php get_footer(); ?>
