@@ -1,7 +1,7 @@
 <div class="home">
 	<div class="row">
 		<div class="col-4 snow-productpage-header">
-			<h1>SNOW GLOVE</h1>
+			<h1>FISH GLOVE</h1>
 			<div class="snow-product-first-paragraph1">	
 				<p>Lorem ipsum dolor sit amet, consectetur</p>
 				<p>adipiscing elit. Donec neque lectus,</p>
