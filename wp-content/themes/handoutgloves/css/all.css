@@ -2,6 +2,10 @@ html, body {
   height: 100%;
 }
 
+.pointer {
+  cursor:url('HO Hand1.png')
+}
+
 .wrapper {
   min-height: 100%;
   position: relative;
@@ -292,6 +296,7 @@ hr {
   border-radius: 5px;
   font-weight: 900;
   font-size: 1.3em;
+  background-color: white;
 }
 
 .quantity-btn {
@@ -325,31 +330,59 @@ hr {
   text-align: center;
 }
 
+.snow-productpage-header {
+  padding-left: 0px !important;
+  margin-top: 120px;
+}
+
 .snow-productpage-header h1 {
   font-weight: 800;
 }
 
-.product-page-bottom {
-  display: inline;
+.product-page-bottom-pictures {
+  float: right;
 }
 
+.snow-product-first-paragraph1 {
+  margin-bottom: 35px;
+  margin-top: 35px;
+}
 
+.snow-product-first-paragraph2 {
+  margin-bottom: 55px;
+}
 
+.snow-sub-footer {
+  z-index: -1;
+  margin-top: -450px;
+}
 
+.home-snow-img {
+  width: 100%;
+}
 
+.product-landing-page-container {
+  margin-left: 100px;
+  margin-right: 100px;
+}
 
+.landing-page-footer {
+  width: 100%;
+  margin-bottom: -80px;
 
+}
 
+.snow-landing-footer {
+  z-index: -1;
+}
 
+.product-page-bottom-content {
+  margin-top: 150px;
+}
 
-
-
-
-
-
-
-
-
+.snow-productpage-header {
+  text-align: center;
+}
 
 
 
