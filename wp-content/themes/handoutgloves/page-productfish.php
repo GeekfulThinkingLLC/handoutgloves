@@ -1,8 +1,8 @@
 <div class="home">
 	<div class="product-landing-page-container">
 		<div class="row">
-			<div class="col-4 snow-productpage-header" style="background:url('<?php echo theme_image('HO Hunt6.png'); ?>') no-repeat center center;background-size: 90% 90%;">
-				<h1>HUNT GLOVE</h1>
+			<div class="col-4 snow-productpage-header" style="background:url('<?php echo theme_image('HO Fish6.png'); ?>') no-repeat center center;background-size: 90% 90%;">
+				<h1>FISH GLOVE</h1>
 				<div class="snow-product-first-paragraph1">	
 					<p>Lorem ipsum dolor sit amet, consectetur</p>
 					<p>adipiscing elit. Donec neque lectus,</p>
@@ -95,5 +95,5 @@
 	</div>
 </div>
 	<div class="snow-landing-footer">
-    <img src="<?php echo theme_image('hunt-landing-footer-1.png'); ?>" class="landing-page-footer">
+    <img src="<?php echo theme_image('fish-landing-footer-1.png'); ?>" class="landing-page-footer">
   </div>
