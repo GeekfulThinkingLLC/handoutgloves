@@ -88,8 +88,9 @@
     </div>
   </div>  
 
-  <hr>
-
+  <div class="snow-sub-footer">
+    <img src="<?php echo theme_image('hog_footer_all-final-snow-1.png'); ?>" class="home-snow-img">
+  </div>
   
   <div class="row snow-main-styles justify-content-center">
     <div class="col-4" style="background:url('<?php echo theme_image('HO Fish6.png'); ?>') no-repeat center center;background-size: 60% 70%;">
@@ -110,7 +111,9 @@
     </div>  
   </div>
 
-  <hr>
+  <div class="snow-sub-footer">
+    <img src="<?php echo theme_image('fish-home-footer-2.png'); ?>" class="home-snow-img">
+  </div>
 
   <div class="row snow-main-styles justify-content-center">
     <div class="col-4" style="background:url('<?php echo theme_image('HO Hunt6.png'); ?>') no-repeat center center;background-size: 60% 70%;">
@@ -131,7 +134,9 @@
     </div>  
   </div>  
 
-  <hr>
+  <div class="snow-sub-footer">
+    <img src="<?php echo theme_image('hunt-home-footer-2.png'); ?>" class="home-snow-img">
+  </div>
 
   <div class="row snow-main-styles justify-content-center">
     <div class="col-4" style="background:url('<?php echo theme_image('HO Work6.png'); ?>') no-repeat center center;background-size: 60% 70%;">
@@ -152,7 +157,9 @@
     </div>  
   </div>
 
-  <hr>
+  <div class="snow-sub-footer">
+    <img src="<?php echo theme_image('work-home-footer-2.png'); ?>" class="home-snow-img">
+  </div>
 
   <div class="row snow-main-styles justify-content-center">
     <div class="col-4">
