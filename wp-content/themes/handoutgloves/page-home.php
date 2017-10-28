@@ -1,4 +1,10 @@
 <div class="home">
+  <div class="nav-zipper">
+    <img src="<?php echo theme_image('bottomhalfzipper.png'); ?>" class="header-zipper-img">
+  </div>
+  <div class="zipper-tag-nav">
+    <img src="<?php echo theme_image('snow-zipper-tag.png'); ?>" class="header-zippertag-img">
+  </div>  
   <div class="row justify-content-center">
     <div class="main-content-style">
       <div class="upper-case-top-home-screen">
@@ -59,6 +65,7 @@
 
   <div class="whole-sale-page-break">
     <div class="row justify-content-center">
+    <img src="<?php echo theme_image('tophalfzipper.png'); ?>" class="whole-sale-zipper-img">
       <div class="vertical-align-wholesale">
         <h1 class="whole-sale-page-break1">Yo Whole Sale Venders</h1>
         <div class="row justify-content-center">
@@ -66,6 +73,7 @@
         </div>
       </div>
     </div> 
+      <img src="<?php echo theme_image('bottomhalfzipper.png'); ?>" class="whole-sale-zipper-img">
   </div>
 
   <div class="row snow-main-styles justify-content-center">
