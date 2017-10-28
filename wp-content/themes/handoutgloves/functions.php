@@ -10,7 +10,6 @@ function theme_js() {
     wp_enqueue_script( 'bootstrap2', get_template_directory_uri() . '/js/bootstrap.js', array('jquery'), '20120206', true);
     wp_enqueue_script( 'bootstrap3', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), '20120206', true);
     wp_enqueue_script( 'my_custom_js', get_template_directory_uri() . '/js/scripts.js', array('jquery'), '20120206', true);
-    wp_enqueue_script("jquery");
   }
   add_action( 'wp_enqueue_scripts', 'theme_js');
 

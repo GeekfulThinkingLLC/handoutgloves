@@ -1,3 +1,17 @@
+<?php
+
+/*
+* Template Name: Product Snow
+*/
+
+?>
+
+<?php get_template_part('mainnav') ?>
+ 
+ <?php get_header(); ?>
+
+ <?php get_sidebar(); ?>
+
 <div class="home">
 	<div class="product-landing-page-container">
 		<div class="row">
@@ -97,3 +111,5 @@
 	<div class="snow-landing-footer">
     <img src="<?php echo theme_image('snow-landing-footer-1.png'); ?>" class="landing-page-footer">
   </div>
+
+<?php get_footer(); ?>
