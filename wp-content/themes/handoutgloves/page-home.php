@@ -12,7 +12,9 @@
 
 
   <div class="row justify-content-center">
-    <img src="http://via.placeholder.com/1000x400">
+    <div class="img-width">
+      <img src="http://via.placeholder.com/1000x400" class="img-fluid">
+    </div>
   </div>
 
   <div class="row justify-content-center buy-now-btn-style">
@@ -44,7 +46,7 @@
   
 
   <div class="row justify-content-center main-glove-homepage">
-    <img src="http://via.placeholder.com/1000x400">
+    <img src="http://via.placeholder.com/1000x400" class="img-fluid">
   </div>
 
   <div class="main-content-style">
@@ -83,7 +85,7 @@
 
     <div class="justify-content-center">
       <div class="col-8">
-        <img src="http://via.placeholder.com/800x400">
+        <img src="http://via.placeholder.com/800x400" class="img-fluid">
       </div>
     </div>
   </div>  
@@ -106,7 +108,7 @@
     </div>
     <div class="justify-content-center">
       <div class="col-8">
-        <img src="http://via.placeholder.com/800x400">
+        <img src="http://via.placeholder.com/800x400" class="img-fluid">
       </div>
     </div>  
   </div>
@@ -129,7 +131,7 @@
     </div>
     <div class="justify-content-center">
       <div class="col-8">
-        <img src="http://via.placeholder.com/800x400">
+        <img src="http://via.placeholder.com/800x400" class="img-fluid">
       </div>
     </div>  
   </div>  
@@ -152,7 +154,7 @@
     </div>
     <div class="justify-content-center">
       <div class="col-8">
-        <img src="http://via.placeholder.com/800x400">
+        <img src="http://via.placeholder.com/800x400" class="img-fluid">
       </div>
     </div>  
   </div>
@@ -179,7 +181,7 @@
     </div>
     <div class="justify-content-center">
       <div class="col-8">
-        <img src="http://via.placeholder.com/800x400">
+        <img src="http://via.placeholder.com/800x400" class="img-fluid">
       </div>
     </div>  
   </div>
