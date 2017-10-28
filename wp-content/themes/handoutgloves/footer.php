@@ -1,4 +1,7 @@
       </div>
+      <div class="footer-zipper">
+      <img src="<?php echo theme_image('tophalfzipper.png'); ?>" class="whole-sale-zipper-img1">
+      </div>
       <footer>
         <div class="container">
           <div class="row footer-text-styles">

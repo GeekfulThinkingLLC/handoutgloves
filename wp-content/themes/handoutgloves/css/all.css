@@ -89,7 +89,6 @@ i {
   background-color: white;
   border: 2px solid black;
   color: black;
-  width: 25%;
 }
 
 .main-glove-homepage {
@@ -102,11 +101,48 @@ i {
   height: 120px;
   color: white;
   background-color: #1F1D1D;
-  vertical-align: center;
+  text-align: center;
+}
+
+.whole-sale-page-break a {
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+  }
+
+@media screen and (max-width:992px) {
+  .whole-sale-page-break {
+    margin-top: 50px;
+    width: 100%;
+    height: 58px;
+    color: white;
+    background-color: #1F1D1D;
+    text-align: center;
+  }
+  .whole-sale-page-break1 {
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-top: 10px;
+  }
+  .whole-sale-zipper-img {
+    margin-top: -14px !important;
+    height: 15px;
+  }
+
+  .whole-sale-zipper-img1 {
+    margin-top: 8px !important;
+    height: 15px;
+  }
+  .whole-sale-page-break a {
+    font-size: 11px;
+    text-decoration: none;
+    color: white;
+  }
 }
 
 .whole-sale-page-break1 {
   text-transform: uppercase;
+  text-align: center;
 }
 
 .whole-sale-button {
@@ -117,12 +153,11 @@ i {
 .whole-sale-zipper-img {
   width: 100vw;
   margin-top: -15px;
-  margin-left: -2px;
 }
 
 .whole-sale-zipper-img1 {
   width: 100vw;
-  margin-left: -2px;
+  margin-top: 18px;
 }
 
 .vertical-align-wholesale {
@@ -167,7 +202,6 @@ i {
 #menuLarge {
   background: rgba(0,0,0,0.8);
   position: absolute;
-  top: 13px;
   right: 0;
   left: 0;
   margin-top: 93px;
@@ -204,8 +238,7 @@ i {
 }
 
 .snow-main-styles {
-  height: 30vw;
-  margin-top: 100px;
+  /*margin-top: 100px;*/
 }
 
 .snow-right-pic-styles {
@@ -213,7 +246,8 @@ i {
 }
 
 .text-product-homepage {
-  margin-top: 20%;
+  margin-top: 7%;
+  padding-top: 42px;
 }
 
 .text-product-homepage h1 {
@@ -323,13 +357,12 @@ hr {
     height: 100vh;
     width: 15%;
     position: fixed;
-    top: 8vh;
+    top: 79px;
     left: 0;
     padding: 0;
     list-style: none;
     border-right: 2px solid #000;
     background-color: #fff;
-    overflow-y: scroll;
     z-index: 1000;
   }
 }
@@ -339,13 +372,12 @@ hr {
     height: 100vh;
     width: 33%;
     position: fixed;
-    top: 11.623vh;
+    top: 93px;
     left: 0;
     padding: 0;
     list-style: none;
     border-right: 2px solid #000;
     background-color: #fff;
-    overflow-y: scroll;
     z-index: 1000;
   }
 }
@@ -430,8 +462,20 @@ button:focus {
   margin-top: -450px;
 }
 
+.footer-container {
+  width: 100vw;
+  height: 70vh;
+}
+
 .home-snow-img {
   width: 100%;
+}
+
+
+@media screen and (max-width:992px) {
+  .home-snow-img {
+    display: none;
+  }
 }
 
 .product-landing-page-container {
@@ -493,7 +537,8 @@ button:focus {
     font-size: 20px;
   }
 }
-/*Header zipper styles*/
+/*Header zipper styles */
+
 .header-zipper-img {
   width: 100%;
 }
@@ -527,3 +572,40 @@ button:focus {
 
 /*Header zipper styles*/
 
+.snow-div {
+    width: 100vw;
+    height: 75vh;
+}
+
+@media screen and (min-width:992px) {
+  .snow-div {
+    display: none;
+  }
+}  
+
+
+.snow-div1 {
+  width: 100%;
+  height: 70vh;
+}
+
+@media screen and (max-width: 992px) {
+  .snow-div1 {
+    width: 100%;
+    height: 75vh;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .nick-russel-row {
+    top: 50%;
+    transform: translateY(50%);
+  }
+}
+
+
+
+
+/*.product-background-img-size {
+  height: 66.6667%;
+}*/

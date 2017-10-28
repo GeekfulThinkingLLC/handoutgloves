@@ -87,3 +87,6 @@
     </ul>
   </div>
 </nav>
+<div class="nav-zipper">
+  <img src="<?php echo theme_image('bottomhalfzipper.png'); ?>" class="header-zipper-img">
+</div>
