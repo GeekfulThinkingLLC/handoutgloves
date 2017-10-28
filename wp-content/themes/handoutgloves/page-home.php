@@ -74,8 +74,8 @@
           <a href="#" class="whole-sale-button">Click Here</a>
         </div>
       </div>
+      <img src="<?php echo theme_image('bottomhalfzipper.png'); ?>" class="whole-sale-zipper-img1">
     </div> 
-      <img src="<?php echo theme_image('bottomhalfzipper.png'); ?>" class="whole-sale-zipper-img">
   </div>
 
   <div class="row snow-main-styles justify-content-center">
