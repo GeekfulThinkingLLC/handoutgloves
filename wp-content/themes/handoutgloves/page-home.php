@@ -1,3 +1,17 @@
+<?php
+
+/*
+* Template Name: Home
+*/
+
+?>
+
+<?php get_template_part('mainnav') ?>
+ 
+ <?php get_header(); ?>
+
+ <?php get_sidebar(); ?>
+
 <div class="home">
   <div class="nav-zipper">
     <img src="<?php echo theme_image('bottomhalfzipper.png'); ?>" class="header-zipper-img">
@@ -193,13 +207,9 @@
       </div>
     </div>  
   </div>
-
-
-
-
-
-
 </div>
+
+<?php get_footer(); ?>
 
 
 
