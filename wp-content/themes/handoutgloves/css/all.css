@@ -238,7 +238,7 @@ i {
 }
 
 .snow-main-styles {
-  /*margin-top: 100px;*/
+  margin-top: 27px;
 }
 
 .snow-right-pic-styles {
@@ -287,7 +287,7 @@ hr {
 }
 
 .text-product-homepage1 {
-  margin-top: 15%;
+  /*margin-top: 15%;*/
 }
 
 .row {
@@ -327,6 +327,7 @@ hr {
   border-radius: 5px;
   font-weight: 900;
   font-size: 1.3em;
+  background-color: white;
 }
 
 .model-btn {
@@ -341,7 +342,7 @@ hr {
 
 .snow-productpage-header {
   padding-left: 0px !important;
-  margin-top: 120px;
+  margin-top: 48px;
   width: 100vh;
 }
 
@@ -446,9 +447,19 @@ button:focus {
   outline:0;
 }
 
+select {
+  text-align-last: center;
+}
+
+.selected {
+  background-color: black;
+  color: white;
+}
+
 .product-landing-size-focus button:focus {
   outline:0;
-  background-color: grey;
+  background-color: black;
+  color: white;
 }
 
 .product-page-bottom-pictures {
@@ -495,7 +506,7 @@ button:focus {
 
 @media screen and (min-width:992px) {
   .product-landing-page-container {
-    margin-left: 100px;
+    margin-left: 170px;
     margin-right: 100px;
   }
 } 
@@ -555,6 +566,10 @@ button:focus {
   }
 }
 
+#side-nav-button:hover {
+  cursor: default;
+}
+
 
 .footer-zipper {
   margin-bottom: -80px;
@@ -572,6 +587,18 @@ button:focus {
   position: relative;
 }
 
+.header-zippertag-img1 {
+    margin-left: 3.8vw;
+    margin-top: -3.4vw;
+    width: 6vw;
+    position: fixed;
+  }
+
+@media screen and (max-width: 992px) {
+  .header-zippertag-img1 {
+    display: none;
+  }
+}
 
 @media screen and (max-width: 992px) {
   .nav-zipper {
@@ -615,6 +642,7 @@ button:focus {
   .snow-div1 {
     width: 100%;
     height: 80vh;
+    margin-top: 75px;
   }
 }
 
@@ -625,9 +653,35 @@ button:focus {
   }
 }
 
+.mobile-product-img {
+  width: 25vw;
+}
+
+.mobile-product-img-home {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: -50px;
+}
+
+.zipper-seperator-home-mobile {
+}
+
+.zipper-seperator-img {
+    width: 100%;
+    margin-top: 95px;
+  }
+
+@media screen and (min-width: 992px) {
+  .zipper-seperator-img {
+    display: none;
+  }
+}
 
 
 
-/*.product-background-img-size {
-  height: 66.6667%;
-}*/
+
+
+
+
+
+

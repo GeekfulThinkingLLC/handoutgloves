@@ -96,15 +96,16 @@
       <div class="snow-div">
         <div class="row snow-main-styles">
           <div class="col-12 col-lg-4">
-            <div class="product-background-img-size" style="background:url('<?php echo theme_image('HO Snow6.png'); ?>') no-repeat center center;background-size: 60% 70%;">
-              <div class="text-product-homepage">
-                <h1>SNOW</h1>
-                <p>With Hand Out Gloves'</p>
-                <p>one-of-a-kind technology, you'll</p>
-                <p>never lose a glove again.</p>
-                <div class="row justify-content-center">
+            <div class="mobile-product-img-home">
+              <img src="<?php echo theme_image('HO Snow Icon3.png'); ?>" class="mobile-product-img">
+            </div>  
+            <div class="text-product-homepage">
+              <h1>SNOW</h1>
+              <p>With Hand Out Gloves'</p>
+              <p>one-of-a-kind technology, you'll</p>
+              <p>never lose a glove again.</p>
+              <div class="row justify-content-center">
                 <button class="btn btn-lg btn-primary btn-styles2">Buy Now</button>
-              </div>
               </div>
             </div>
           </div>
@@ -118,9 +119,16 @@
         </div>
       </div>
 
+      <div class="zipper-seperator-home-mobile">
+        <img src="<?php echo theme_image('Zipper.png'); ?>" class="zipper-seperator-img">
+      </div>
+
       <div class="snow-div">  
         <div class="row snow-main-styles">
-          <div class="col-12 col-lg-4" style="background:url('<?php echo theme_image('HO Fish6.png'); ?>') no-repeat center center;background-size: 60% 70%;">
+          <div class="col-12 col-lg-4">
+            <div class="mobile-product-img-home">
+              <img src="<?php echo theme_image('HO Fish Icon3.png'); ?>" class="mobile-product-img">
+            </div> 
             <div class="text-product-homepage">
               <h1>FISH</h1>
               <p>With Hand Out Gloves'</p> 
@@ -133,7 +141,7 @@
           </div>
           <div class="col-12 col-lg-8">
             <img src="http://via.placeholder.com/800x400" class="img-fluid">
-          </div> 
+          </div>
         </div>
 
         <div class="snow-sub-footer">
@@ -141,9 +149,16 @@
         </div>
       </div> 
 
+      <div class="zipper-seperator-home-mobile">
+        <img src="<?php echo theme_image('Zipper.png'); ?>" class="zipper-seperator-img">
+      </div>
+
       <div class="snow-div">
         <div class="row snow-main-styles">
-          <div class="col-12 col-lg-4" style="background:url('<?php echo theme_image('HO Hunt6.png'); ?>') no-repeat center center;background-size: 60% 70%;">
+          <div class="col-12 col-lg-4">
+            <div class="mobile-product-img-home">
+              <img src="<?php echo theme_image('HO Hunt Icon3.png'); ?>" class="mobile-product-img">
+            </div> 
             <div class="text-product-homepage">
               <h1>HUNT</h1>
               <p>With Hand Out Gloves'</p> 
@@ -164,9 +179,16 @@
         </div>
       </div>
 
+      <div class="zipper-seperator-home-mobile">
+        <img src="<?php echo theme_image('Zipper.png'); ?>" class="zipper-seperator-img">
+      </div>
+
       <div class="snow-div">
         <div class="row snow-main-styles">
-          <div class="col-12 col-lg-4" style="background:url('<?php echo theme_image('HO Work6.png'); ?>') no-repeat center center;background-size: 60% 70%;">
+          <div class="col-12 col-lg-4">
+            <div class="mobile-product-img-home">
+              <img src="<?php echo theme_image('HO Work Icon3.png'); ?>" class="mobile-product-img">
+            </div>
             <div class="text-product-homepage">
               <h1>WORK</h1>
               <p>With Hand Out Gloves'</p> 
@@ -185,6 +207,10 @@
         <div class="snow-sub-footer">
           <img src="<?php echo theme_image('work-home-footer.png'); ?>" class="home-snow-img">
         </div>
+      </div>
+
+      <div class="zipper-seperator-home-mobile">
+        <img src="<?php echo theme_image('Zipper.png'); ?>" class="zipper-seperator-img">
       </div>
 
       <div class="snow-div1">
