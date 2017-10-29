@@ -4,24 +4,34 @@
           <div class="row footer-text-styles">
             <div class="col-12 col-lg-4">
               <p class="underline">social<p>
-              <div class="container">
+              
                 <div class="row">
                   <div class="col-3">
-                    <a href="#"><i class="fa fa-instagram fa-2x social-border"></i></a>
+                    <div class="social-box-size">
+                      <a href="#"><i class="fa fa-instagram fa-2x social-border"></i></a>
+                    </div>
                   </div>
                   <div class="col-3">
-                    <a href="#"><i class="fa fa-facebook fa-2x social-border"></i></a>
+                    <div class="social-box-size">
+                      <a href="#"><i class="fa fa-facebook fa-2x social-border"></i></a>
+                    </div>
                   </div>
                   <div class="col-3">
-                    <a href="#"><i class="fa fa-twitter fa-2x social-border"></i></a>
+                    <div class="social-box-size">
+                      <a href="#"><i class="fa fa-twitter fa-2x social-border"></i></a>
+                    </div>
                   </div>
                   <div class="col-3">
-                    <a href="#"><i class="fa fa-vimeo fa-2x social-border"></i></a>
+                    <div class="social-box-size">
+                      <a href="#"><i class="fa fa-vimeo fa-2x social-border"></i></a>
+                    </div>
                   </div>
                 </div>
+                
+              <hr class="text-white mobile-display-none">
+              <div class="footer-ho-icon">
+                <img src="<?php echo theme_image('HO Full2 (White).png') ?>">
               </div>
-              <hr class="text-white">
-              <img src="<?php echo theme_image('HO Full2 (White).png') ?>" style="width:100px; margin:0 auto; display: block">
             </div>
             <div class="col-12 col-lg-4">
               <p class="underline">products</p>

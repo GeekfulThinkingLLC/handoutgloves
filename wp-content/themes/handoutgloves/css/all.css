@@ -28,9 +28,15 @@ footer {
   bottom: 0;
   width: 100%;
   background-color: #231f20;
-  min-height: 400px;
-  padding: 50px 0px 50px 0px;
+  min-height: 337px;
+  padding-top: 50px;
   color: white;
+}
+
+.footer-ho-icon img {
+  width: 120px;
+  margin: 0 auto;
+  display: block; 
 }
 
 .footer-text-styles {
@@ -45,6 +51,25 @@ footer {
 .underline {
   border-bottom: 1px solid white;
   color: white;
+}
+
+.social-box-size {
+  margin: -10px;
+}
+
+@media screen and (max-width:992px) {
+  .underline {
+    margin-top: 20px;
+  }
+  .footer-ho-icon img {
+    display: none;
+  }
+  .mobile-display-none {
+    display: none;
+  }
+  footer {
+    padding-top: 15px; 
+  }
 }
 
 .social-border {
@@ -130,7 +155,7 @@ i {
   }
 
   .whole-sale-zipper-img1 {
-    margin-top: 8px !important;
+    margin-top: 6px !important;
     height: 15px;
   }
   .whole-sale-page-break a {
