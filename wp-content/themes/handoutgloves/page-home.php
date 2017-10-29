@@ -195,7 +195,7 @@
                   <h1>NICK RUSSELL</h1>
                   <h1>IS OUR HOMIE</h1>
                 </div>
-                <div class="nick-russel-spacer">  
+                <div class="nick-russel-spacer"> 
                   <p>We got this guy on our side. Backcountry</p> 
                   <p>rider Nick Russell knows his way around</p> 
                   <p>a glove, that’s why he ride for Hand Out</p>
@@ -209,6 +209,9 @@
           </div> 
         </div>
       </div>
+    </div> 
+    <div class="footer-zipper">
+        <img src="<?php echo theme_image('tophalfzipper.png'); ?>" class="whole-sale-zipper-img1">
     </div>
   <?php get_footer(); ?>
 

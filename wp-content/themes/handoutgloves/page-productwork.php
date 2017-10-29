@@ -15,7 +15,7 @@
 <div class="home">
 	<div class="product-landing-page-container">
 		<div class="row">
-			<div class="col-4 snow-productpage-header" style="background:url('<?php echo theme_image('HO Work6.png'); ?>') no-repeat center center;background-size: 90% 90%;">
+			<div class="col-md-12 col-lg-4 snow-productpage-header" style="background:url('<?php echo theme_image('HO Snow6.png'); ?>') no-repeat center center;background-size: 90% 90%;">
 				<h1>WORK GLOVE</h1>
 				<div class="snow-product-first-paragraph1">	
 					<p>Lorem ipsum dolor sit amet, consectetur</p>
@@ -50,18 +50,18 @@
 	  		</div>
 			</div>
 
-			<div class="col-8">
+			<div class="col-md-12 col-lg-8">
 
 			</div>
 		</div>
 
 		<div class="row product-page-bottom-content">
-			<div class="col-1">
+			<div class="col-md-6 col-lg-1 landing-page-products-mobile">
 				<div class="product-page-bottom-pictures">
 					<img src="http://via.placeholder.com/100x200">
 				</div>
 			</div>
-			<div class="col-2">
+			<div class="col-md-6 col-lg-2 landing-page-products-mobile">
 				<h4>Pro</h4>
 				<a href="#">Learn More</a>
 				<br>
@@ -69,12 +69,12 @@
 			</div>
 
 
-			<div class="col-1 product-page-bottom-pictures">
+			<div class="col-md-6 col-lg-1 landing-page-products-mobile">
 				<div class="product-page-bottom-pictures">
 					<img src="http://via.placeholder.com/100x200">
 				</div>
 			</div>
-			<div class="col-2">
+			<div class="col-md-6 col-lg-2 landing-page-products-mobile">
 				<h4>Sport</h4>
 				<a href="#">Learn More</a>
 				<br>
@@ -82,24 +82,24 @@
 			</div>
 
 
-			<div class="col-1 product-page-bottom-pictures">
+			<div class="col-md-6 col-lg-1 landing-page-products-mobile">
 				<div class="product-page-bottom-pictures">
 					<img src="http://via.placeholder.com/100x200">
 				</div>
 			</div>
-			<div class="col-2">
+			<div class="col-md-6 col-lg-2 landing-page-products-mobile">
 				<h4>Light Weight</h4>
 				<a href="#">Learn More</a>
 				<br>
 				<a href="#">Buy Now</a>
 			</div>
 
-			<div class="col-1 product-page-bottom-pictures">
+			<div class="col-md-6 col-lg-1 landing-page-products-mobile">
 				<div class="product-page-bottom-pictures">
 					<img src="http://via.placeholder.com/100x200">
 				</div>
 			</div>
-			<div class="col-2">
+			<div class="col-md-6 col-lg-2 landing-page-products-mobile">
 				<h4>Childrens</h4>
 				<a href="#">Learn More</a>
 				<br>

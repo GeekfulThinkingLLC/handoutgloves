@@ -342,6 +342,7 @@ hr {
 .snow-productpage-header {
   padding-left: 0px !important;
   margin-top: 120px;
+  width: 100vh;
 }
 
 .snow-productpage-header h1 {
@@ -444,8 +445,22 @@ hr {
 button:focus {
   outline:0;
 }
+
+.product-landing-size-focus button:focus {
+  outline:0;
+  background-color: grey;
+}
+
 .product-page-bottom-pictures {
   float: right;
+}
+
+.landing-page-products-mobile {
+  width: 50%;
+}
+
+.landing-page-product-spacing {
+  /*margin-top: 25px*/
 }
 
 .snow-product-first-paragraph1 {
@@ -478,14 +493,16 @@ button:focus {
   }
 }
 
-.product-landing-page-container {
-  margin-left: 100px;
-  margin-right: 100px;
-}
+@media screen and (min-width:992px) {
+  .product-landing-page-container {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+} 
 
 .landing-page-footer {
   width: 100%;
-  margin-bottom: -80px;
+  margin-bottom: -82px;
 
 }
 
@@ -494,7 +511,7 @@ button:focus {
 }
 
 .product-page-bottom-content {
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 .snow-productpage-header {
@@ -536,6 +553,11 @@ button:focus {
   #side-nav-button {
     font-size: 20px;
   }
+}
+
+
+.footer-zipper {
+  margin-bottom: -80px;
 }
 /*Header zipper styles */
 
@@ -592,7 +614,7 @@ button:focus {
 @media screen and (max-width: 992px) {
   .snow-div1 {
     width: 100%;
-    height: 75vh;
+    height: 80vh;
   }
 }
 
