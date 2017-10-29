@@ -31,11 +31,12 @@
 					<p>commodo in nulla eget, dictum magna.</p>
 				</div>
 				<div class="form-group">
-	    		<select id="exampleSelect1" class="model-btn" placeholder="Model">
+	    		<select id="exampleSelect1" class="model-btn">
 			      <option disabled hidden selected>Model</option>
 			      <option>Pro</option>
 			      <option>Sport</option>
 			      <option>Light Weight</option>
+			      <option>Childrens</option>
 			    </select>
 		    	<input type="Quantity" class="quantity-btn" id="exampleInputPassword1" placeholder="QTY">
 			  </div>

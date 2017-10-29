@@ -36,6 +36,7 @@
 			      <option>Pro</option>
 			      <option>Sport</option>
 			      <option>Light Weight</option>
+			      <option>Childrens</option>
 			    </select>
 		    	<input type="Quantity" class="quantity-btn" id="exampleInputPassword1" placeholder="QTY">
 			  </div>
