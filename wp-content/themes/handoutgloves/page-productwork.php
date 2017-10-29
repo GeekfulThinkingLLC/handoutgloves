@@ -13,9 +13,12 @@
  <?php get_sidebar(); ?>
 
 <div class="home">
+	<div class="zipper-tag-nav">
+    <img src="<?php echo theme_image('work-zipper-tag.png'); ?>" class="header-zippertag-img1">
+  </div> 
 	<div class="product-landing-page-container">
 		<div class="row">
-			<div class="col-md-12 col-lg-4 snow-productpage-header" style="background:url('<?php echo theme_image('HO Snow6.png'); ?>') no-repeat center center;background-size: 90% 90%;">
+			<div class="col-md-12 col-lg-4 snow-productpage-header" style="background:url('<?php echo theme_image('HO Snow6.png'); ?>') no-repeat center center;background-size: 90% 70%;">
 				<h1>WORK GLOVE</h1>
 				<div class="snow-product-first-paragraph1">	
 					<p>Lorem ipsum dolor sit amet, consectetur</p>
@@ -29,7 +32,7 @@
 				</div>
 				<div class="form-group">
 	    		<select id="exampleSelect1" class="model-btn" placeholder="Model">
-			      <option>Model</option>
+			      <option disabled hidden selected>Model</option>
 			      <option>Pro</option>
 			      <option>Sport</option>
 			      <option>Light Weight</option>
@@ -38,11 +41,11 @@
 			  </div>
 			  <div class="form-group">
 				  <div class="row justify-content-center">
-		    		<button type="size" class="size-buttons" id="exampleInputPassword1" placeholder="XS">XS</button>
-		    		<button type="size" class="size-buttons" id="exampleInputPassword1" placeholder="S">S</button>
-		    		<button type="size" class="size-buttons" id="exampleInputPassword1" placeholder="M">M</button>
-		    		<button type="size" class="size-buttons" id="exampleInputPassword1" placeholder="L">L</button>
-		    		<button type="size" class="size-buttons" id="exampleInputPassword1" placeholder="XL">XL</button>
+		    		<button type="button" class="size-buttons one" id="exampleInputPassword1" placeholder="XS">XS</button>
+		    		<button type="button" class="size-buttons two" id="exampleInputPassword1" placeholder="S">S</button>
+		    		<button type="button" class="size-buttons three" id="exampleInputPassword1" placeholder="M">M</button>
+		    		<button type="button" class="size-buttons four" id="exampleInputPassword1" placeholder="L">L</button>
+		    		<button type="button" class="size-buttons five" id="exampleInputPassword1" placeholder="XL">XL</button>
 		  		</div>
 		  	</div>
 	  		<div class="form-group">
